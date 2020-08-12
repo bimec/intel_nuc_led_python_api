@@ -30,6 +30,7 @@ class LED(ABC):
     _led_id = None
     _colors = None
     _styles = {
+	"Off":"none"
         "Always On": "none",
         "1Hz Blink": "blink_fast",
         "0.5Hz Blink": "blink_medium",
